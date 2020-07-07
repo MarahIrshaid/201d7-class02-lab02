@@ -24,6 +24,8 @@ while (myBirthCity !== "yes" && myBirthCity !== "no") {
             alert("Sorry! that is a wrong answer ")
             // Console.log("Try again!")
             break;
+        default: 
+            alert("Sorry! not acceptable answer ")
     }
 }
 
@@ -46,6 +48,8 @@ while (favColor !== "yes" && favColor !== "no") {
             alert("Sorry! that is a wrong answer ")
             // Console.log("Try again!")
             break;
+         default: 
+            alert("Sorry! not acceptable answer  ")
     }
 }
 
@@ -68,6 +72,8 @@ while (brothers !== "yes" && brothers !== "no") {
             alert("Sorry! that is a wrong answer ")
             // Console.log("Try again!")
             break;
+        default: 
+            alert("Sorry! not acceptable answer  ")
     }
 }
 
@@ -92,6 +98,8 @@ while (favMeal !== "yes" && favMeal !== "no") {
             alert("Sorry! that is a wrong answer ")
             // Console.log("Try again!")
             break;
+        default: 
+            alert("Sorry! not acceptable answer  ")
     }
 }
 
@@ -113,6 +121,8 @@ while (tall !== "yes" && tall !== "no") {
             alert("Sorry! that is a wrong answer ")
             // Console.log("Try again!")
             break;
+        default: 
+            alert("Sorry! not acceptable answer ")
     }
 }
 
