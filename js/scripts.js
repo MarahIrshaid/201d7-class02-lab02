@@ -11,7 +11,7 @@ while (myBirthCity !== "yes" && myBirthCity !== "no") {
     var myBirthCity = prompt("Do you think I was born in Zarqa?")
     myBirthCity = myBirthCity.toLowerCase();
 
-    console.log('Do you think I was born in Zarqa?');
+    console.log('Do you think I was born in Zarqa?'+ myBirthCity);
 
     switch (myBirthCity) {
         case 'yes':
@@ -59,7 +59,7 @@ while (brothers !== "yes" && brothers !== "no") {
     var brothers = prompt("Do i have brothers?")
     brothers = brothers.toLowerCase();
 
-    console.log("Do i have brothers?");
+    console.log("Do i have brothers?" + brothers);
 
     switch (brothers) {
         case 'no':
@@ -85,7 +85,7 @@ while (favMeal !== "yes" && favMeal !== "no") {
     var favMeal = prompt("is Mansaf my favorate meal ?")
     favMeal = favMeal.toLowerCase();
 
-    console.log("is Mansaf my favorate meal ?");
+    console.log("is Mansaf my favorate meal ?" +favMeal);
 
     switch (favMeal) {
         case 'no':
@@ -108,7 +108,7 @@ while (tall !== "yes" && tall !== "no") {
     var tall = prompt("Am I 160 cm tall  ?")
     tall = tall.toLowerCase();
 
-    console.log("Am I 160 cm tall  ?");
+    console.log("Am I 160 cm tall  ?" + tall);
 
     switch (tall) {
         case 'no':
@@ -134,7 +134,7 @@ while (tall !== "yes" && tall !== "no") {
 for (var counter = 0; counter <= 3; counter++) {
     var number = prompt('How much time does Marah spend on practicing programming everyday? choose from 1-10 hours ')
 
-    console.log('How much time does Marah spend on practicing programming everyday? choose from 1-10 hours ')
+    console.log('How much time does Marah spend on practicing programming everyday? choose from 1-10 hours '+ number)
     if (number >= 1 && number <= 5) {
 
         alert('Too low!');
@@ -171,7 +171,7 @@ for (var counter = 0; counter <= 3; counter++) {
 var userAnswer;
 var trueAnswer = ["black", "pink"];
 userAnswer = prompt('What colors Marah likes the most ?')
-console.log('What colors Marah likes the most ?')
+console.log('What colors Marah likes the most ?' + userAnswer)
 for (var counter = 0; counter < 5; counter++) {
     if (userAnswer === trueAnswer[0] || userAnswer === trueAnswer[1]) {
         alert('correct');
