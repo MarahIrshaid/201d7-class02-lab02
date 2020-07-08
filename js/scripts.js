@@ -35,7 +35,7 @@ while (favColor !== "yes" && favColor !== "no") {
     var favColor = prompt("Do you think pink is Marah's favorate color?")
     favColor = favColor.toLowerCase();
 
-    console.log("Do you think pink is Marah's favorate color?");
+    console.log("Do you think pink is Marah's favorate color?" + favColor);
 
     switch (favColor) {
         case 'yes':
