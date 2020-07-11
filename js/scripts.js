@@ -1,15 +1,11 @@
 'use strict'
 var userName = prompt("Hi, What is your name?");
 alert("Hello!    " + userName + "       Welcome to my lifeStory!   ");
-<<<<<<< HEAD
 
 
 
 
-// 1st question:
-
-=======
->>>>>>> 9e903e90e19e48c2c2203c6629344c04906024ae
+// 1st
 var correctAns = 0;
 // 1st question:
 function firstQuestion() {
