@@ -6,6 +6,7 @@ alert("Hello!    " + userName + "       Welcome to my lifeStory!   ");
 
 
 // 1st question:
+
 var correctAns = 0;
 while (myBirthCity !== "yes" && myBirthCity !== "no") {
     var myBirthCity = prompt("Do you think I was born in Zarqa?")
